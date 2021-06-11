@@ -1,0 +1,128 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*home*/
+.jumbotron{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(7, 7, 2);
+    overflow: hidden;
+}
+
+.jumbotron img{
+    border:5px solid #ffffff;
+    border-radius:30px 30px 0px 0px;
+}
+
+.jumbotron img.img{
+    border-radius:30px;
+}
+
+#p{
+    background-color:#ffffff;
+    border-radius:0px 0px 30px 30px;
+    padding: 3%;
+ 
+}
+
+
+
+/*pengertian*/
+.kiri, .kanan {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(-50px,0);
+}
+
+.kanan{
+    transform: translate(50px,0);
+}
+
+.kiri.muncul, .kanan.muncul, .table p.muncul, .table.muncul, #kalkulator.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+/*pengertian*/
+
+/*Quiz*/
+#quiz{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table{
+    padding: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    opacity: 0;
+    transition: 1.5s;
+    transform: translateY(50px);
+}
+.score{
+    background-color: royalblue;
+    color: seashell;
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    margin: 0  -20px  -20px;
+    border-radius:0px 0px 15px 15px;
+    font-size: 20px;
+}
+/*Quiz*/
+
+
+/*kalkulator*/
+#kalkulator{
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 0;
+    transform: translate(50px, 0) rotate(-15deg);
+    transition: 1.5s;
+}
+
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 30;
+    margin: 2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background:royalblue;
+    border-radius: 20px;
+}
+
+#btn{
+    background: #1f2964;
+}
+
+#btn2{
+    background: #b91f1f;
+}
+
+.hasil{
+    width:209px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    opacity: .7;
+}
+/*Kalkulator*/
+
+
+
+
+
+
